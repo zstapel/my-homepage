@@ -97,8 +97,10 @@ a:link {
 
     }
 
-    .image {
-        position: absolute;
-        margin-left: 240px;
-        margin-top: 75px;
+    .me > img {
+        object-fit: cover;
+        width: 75%;
+        max-height: 75%;
+        margin-top: 48.5px;
+        margin-left: 70px;
     }
