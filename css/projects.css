@@ -71,29 +71,26 @@ a:hover {
 }
 
 .p1 {
-  margin-left: 140px;
-  position: absolute;
-  margin-top: 420px;
+  margin-left: 173%;
+  margin-top: 520%;
   width: 80px;
 }
 
 .p2 {
-  margin-left: 524px;
-  position: absolute;
-  margin-top: 194px;
+  margin-left: 729%;
+  margin-top: -338%;
   width: 80px;
 }
 
 .p3 {
-  margin-left: 908px;
-  position: absolute;
-  margin-top: 643px;
+  margin-left: 1284%;
+  margin-top: 524%;
   width: 80px;
 }
 
 .parent { 
   display: grid;
-  grid-template-columns: repeat(3, 380px) repeat(2, 1fr);
+  grid-template-columns: repeat(3, 35%) repeat(2, 1fr);
   grid-template-rows: repeat(6, 200px);
   grid-column-gap: 5px;
   grid-row-gap: 25px;

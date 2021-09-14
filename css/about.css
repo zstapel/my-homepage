@@ -62,7 +62,7 @@ a:link {
 
 .parent { 
     display: grid; 
-    grid-template-columns: repeat(2, 560px) repeat(3, 1fr);
+    grid-template-columns: repeat(2, 53.5%) repeat(3, 1fr);
     grid-template-rows: repeat(3, 250px) repeat(2, 1fr); 
     grid-column-gap: 5px;
     grid-row-gap: 5px; 
@@ -83,9 +83,9 @@ a:link {
 
     .aboutme {
         position: absolute;
-        width: 561px;
+        width: 38%;
         height: 330px;
-        left: 723px;
+        left: 49.5%;
         top: 485px;
         font-family: alegreya-sans,sans-serif;
         font-weight: 200;
@@ -99,8 +99,8 @@ a:link {
 
     .me > img {
         object-fit: cover;
-        width: 75%;
+        width: 60%;
         max-height: 75%;
-        margin-top: 48.5px;
-        margin-left: 70px;
+        margin-top: 7%;
+        margin-left: 20%;
     }
